@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 937px;
+        width: 1907px;
+        font-family: sans-serif;
+      }
+      .container {
+        display: flex;
+        border: 2px solid #e76b03;
+        margin-top: 20px;
+        height: 100%;
+      }
+      .left {
+        background-color: #e76b03;
+        color: white;
+        flex: 1.33;
+        text-align: center;
+        padding-top: 100px;
+      }
+      .right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        color: #e76b03;
+        background-color: #f7f7f0;
+      }
+      #left-heading {
+        font-size: 7rem;
+        padding-right: 80px;
+      }
+      .squares {
+        display: flex;
+      }
+      .square {
+        font-size: 2.5em;
+        margin: 0;
+        padding-left: 30px;
+      }
+      .info-box {
+        border-bottom: 2px solid #e76b03;
+        font-size: 1.8em;
+        padding-left: 50px;
+        padding-bottom: 40px;
+      }
+      .stat {
+        display: flex;
+        justify-content: space-between;
+      }
+      .digits {
+        font-size: 4.1em;
+        font-weight: bold;
+      }
+      .right-title {
+        font-size: 0.6em;
+        font-weight: bold;
+      }
+      .stat-left {
+        flex: 3;
+      }
+      .stat-right {
+        display: flex;
+        flex: 1;
+        flex-direction: column-reverse;
+        font-weight: bold;
+      }
+      .units {
+        font-size: 1.2em;
+      }
+      nav {
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 50pt;
+        color: #e76b03;
+        padding-right: 20px;
+        font-weight: lighter;
+        transform: scale(1, 0.7);
+      }
+    </style>
+  </head>
+  <body>
+    <nav><div class="menu-icon">☰</div></nav>
+    <div class="container">
+      <div class="left">
+        <h1 id="left-heading">Making an impact one cup at a time.</h1>
+        <div class="squares">
+          <p class="square">□</p>
+          <p class="square">□</p>
+          <p class="square">■</p>
+        </div>
+      </div>
+      <div class="right">
+        <div class="info-box">
+          <h2>So far we have...</h2>
+          <div class="stat">
+            <div class="stat-left">
+              <p class="right-title">Equipped Fight Climate Change:</p>
+              <span class="digits">191K</span>
+              <span class="units">SQ M</span>
+            </div>
+            <div class="stat-right">
+              <p>of Elders Valley land.</p>
+            </div>
+          </div>
+        </div>
+        <div class="info-box">
+          <div class="stat">
+            <div class="stat-left">
+              <p class="right-title">SAVED FROM LANDFILL:</p>
+              <span class="digits">3619</span>
+              <span class="units">KGS</span>
+            </div>
+            <div class="stat-right">
+              <p>of used coffee grounds.</p>
+            </div>
+          </div>
+        </div>
+        <div class="info-box">
+          <div class="stat">
+            <div class="stat-left">
+              <p class="right-title">BY DRINKING</p>
+              <span class="digits">172.7k</span>
+              <span class="units">cups</span>
+            </div>
+            <div class="stat-right">
+              <p>of brilliant testing cofee.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Garamond, serif;
+      }
+      .container {
+        display: flex;
+        padding: 3% 10% 5% 10%;
+        background-color: #fbfaf7;
+        font-style: italic;
+      }
+      img {
+        width: 100%;
+        height: 450px;
+      }
+      p {
+        font-size: 1.2rem;
+        font-weight: lighter;
+        font-family: arial;
+        line-height: 1.7rem;
+      }
+      .left-article {
+        flex: 1;
+        text-align: center;
+        align-items: center;
+        padding-right: 5%;
+        border-right: 1px solid black;
+      }
+      .right-article {
+        flex: 1;
+        text-align: left;
+        padding-left: 5%;
+      }
+
+      #left-heading {
+        font-size: 2.4rem;
+        line-height: 2.7rem;
+        font-weight: 100;
+      }
+      #ocean {
+        font-size: small;
+      }
+      button {
+        padding: 10px 30px;
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+        font-weight: bold;
+      }
+      .orange-font {
+        color: orange;
+        font-size: 0.9rem;
+        font-weight: bold;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+      }
+      .description {
+        margin-top: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <article class="left-article">
+        <img src="./assets/image1.jpg" alt="" />
+        <div class="left-description">
+          <p id="ocean" class="orange-font">OCEANS</p>
+          <h1 id="left-heading">
+            HOW THESE SCIENTISTS ARE TACKLING THE WORLD'S PLASTIC PROBLEM
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed et
+            dicta dolorem ipsam autem quam aliquid architecto est fuga
+            cupiditate reiciendis ipsa, minus quibusdam, hic repellendus? A
+            rerum ipsam eum.
+          </p>
+        </div>
+      </article>
+      <article class="right-article">
+        <nav>
+          <button>THE DIGEST</button>
+          <span>Archive →</span>
+        </nav>
+        <section class="description">
+          <h2>Global Activists in Legal Battle Over Oil Spill</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
+            alias ratione architecto ut dignissimos assumenda ipsa laboriosam
+            sint quidem, vero voluptatem culpa adipisci dicta qui itaque, omnis
+            praesentium, a dolorum <span class="orange-font">MORE →</span>
+          </p>
+        </section>
+        <section>
+          <h2>Ice Melting in the Daring Peninsula With Record speed</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+            itaque aliquam hic exercitationem nostrum deserunt, autem optio
+            cupiditate obcaecati harum, reprehenderit accusantium, possimus
+            corporis quisquam ratione. Itaque excepturi dolore eius saepe,
+            fugiat esse nisi modi molestias labore id! Corporis, dignissimos
+            nostrum! Quisquam vitae assumenda, dicta perspiciatis tenetur ipsum
+            nostrum dolore!<span class="orange-font">MORE →</span>
+          </p>
+        </section>
+        <section>
+          <h2>
+            Study Finds The Uptake of Renewable Energy Too Slow, Despite
+            Community Efforts
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            explicabo aliquid dolores, minima ut fugit expedita commodi
+            perspiciatis quam deleniti, reprehenderit impedit? Laborum aliquam
+            at et perferendis? Nam iure doloremque laborum quis. Autem tempora
+            voluptates ipsum recusandae cumque, molestias velit quia deleniti
+            deserunt vitae non harum ducimus eos placeat obcaecati!<span
+              class="orange-font"
+              >MORE →</span
+            >
+          </p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

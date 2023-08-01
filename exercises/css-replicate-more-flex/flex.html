@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      div {
+        border: 2px solid black;
+      }
+      .main-container {
+        display: flex;
+        flex-direction: row;
+        width: 90vw;
+        height: 90vh;
+      }
+      .left-col {
+        width: 15%;
+        min-width: 100px;
+      }
+      .right-col {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .row {
+        height: 100px;
+      }
+      .body-container {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+      }
+      .bc-left {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .bc-right {
+        flex: 1;
+      }
+      .body-box {
+        height: 100px;
+        min-width: 200px;
+        max-width: 300px;
+        margin: 20px;
+        flex: 1;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="left-col"></div>
+      <div class="right-col">
+        <div class="row"></div>
+        <div class="body-container">
+          <div class="bc-left">
+            <div class="body-box"></div>
+            <div class="body-box"></div>
+            <div class="body-box"></div>
+            <div class="body-box"></div>
+            <div class="body-box"></div>
+          </div>
+          <div class="bc-right"></div>
+        </div>
+        <div class="row"></div>
+      </div>
+    </div>
+  </body>
+</html>

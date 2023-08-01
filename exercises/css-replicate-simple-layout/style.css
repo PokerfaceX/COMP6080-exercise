@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 10%;
+}
+
+h1 {
+  font-size: 6vh;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+  margin-top: 0.67em;
+}
+
+h2 {
+  color: #d3a54f;
+  text-align: center;
+  font-weight: normal;
+  font-size: 4vh;
+}
+
+hr {
+  background-color: #ccc;
+  height: 1px;
+  border: none;
+}
+
+p {
+  color: #848285;
+  font-weight: lighter;
+  letter-spacing: 0;
+  line-height: 2;
+  margin: 0;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.columned {
+  display: flex;
+}
+
+.halfcard {
+  flex: 1;
+  padding: 0 1.5%;
+}
+
+.blackText {
+  color: black;
+}
+
+.bold {
+  color: #666666;
+  font-weight: bold;
+}
+
+ul {
+  color: #666666;
+}

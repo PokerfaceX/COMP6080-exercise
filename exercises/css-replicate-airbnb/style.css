@@ -1,0 +1,73 @@
+html {
+  margin-right: 0px;
+  display: flex;
+  justify-content: center;
+  font-family: Circular, Arial, Helvetica, sans-serif;
+  color: rgb(72, 72, 72);
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 900px;
+}
+
+h1 {
+  padding: 0;
+}
+
+.buttons {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+hr {
+  height: 1px;
+  background: rgb(235, 235, 235);
+}
+
+.buttons > button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: none;
+  border: 2px solid #008489;
+  background-color: transparent;
+}
+
+div > h1 {
+  margin-bottom: 0;
+}
+
+#button1 {
+  background-color: #008489;
+  color: white;
+  margin-right: 10px;
+}
+
+#button2 {
+  color: #008489;
+}
+
+#bottom-article {
+  display: flex;
+  margin-top: 30px;
+}
+
+ul {
+  padding-left: 0;
+  margin-top: 0;
+
+  margin-right: 30px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+@font-face {
+  font-family: Circular;
+  src: url("./solution/@font-face/860c3ec7bbc5da3e97233ccecafe512e.eot");
+}

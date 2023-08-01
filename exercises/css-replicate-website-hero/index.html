@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      * {
+        font-family: sans-serif;
+      }
+      #container {
+        display: flex;
+        flex-direction: column;
+        width: 1896px;
+        height: 870px;
+      }
+      #main {
+        flex: 1;
+        background-color: yellow;
+        background-image: url(assets/exercise_2_landing_page.jpg);
+        background-size: cover;
+        color: white;
+        padding-left: 250px;
+      }
+
+      #main h1 {
+        margin: 0;
+        width: 500px;
+        height: 280px;
+        font-size: 4rem;
+        margin-top: 50px;
+      }
+
+      #main button {
+        background-color: rgb(255, 211, 1);
+        font-size: 2rem;
+        font-weight: bolder;
+        border-radius: 50px;
+        border: none;
+        width: 320px;
+        height: 80px;
+      }
+
+      #main img {
+        height: 40px;
+        width: 40px;
+        position: relative;
+        top: 20px;
+        margin: 0;
+        margin-top: 40px;
+      }
+
+      #footer {
+        height: 200px;
+        background-color: rgb(255, 211, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+      }
+
+      #footer h1 {
+        padding-top: 45px;
+        padding-bottom: 60px;
+        padding-left: 300px;
+        margin-right: 70px;
+      }
+
+      #footer span {
+        margin: 0;
+        padding-right: 300px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        font-size: 1.5rem;
+      }
+
+      #footer sup {
+        font-size: 0.7rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="main">
+        <h1>Bank safely online from anywhere</h1>
+        <button>Explore product</button>
+        <div class="advertisement">
+          <img src="./assets/exercise_2_fraud_icon.svg" alt="" />
+          We'got your back. <u>See what we're doing about fraud</u>
+        </div>
+      </div>
+      <div id="footer">
+        <h1>$0 fee<sup>1</sup>.</h1>
+        <span
+          >Open an everyday transaction account with us and keep the
+          change</span
+        >
+      </div>
+    </div>
+  </body>
+</html>
